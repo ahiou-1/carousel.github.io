@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Carousel Project</title>
+  </head>
+
+  <body>
+    <section>
+      <div class="image-box">
+        <img src="images/vanilla_coding_logo.png" />
+      </div>
+      <h1>Carousel</h1>
+
+      <!-- Carousel Start -->
+      <div class="carousel">
+        <button class="left">
+          <span class="material-icons">chevron_left</span>
+        </button>
+        <div class="image">
+          <img src="images/image-1.png" alt="" class="pic">
+        </div>
+        <button class="right">
+          <span class="material-icons">chevron_right</span>
+        </button>
+      </div>
+      <div class="pointer">
+        <div class="dot first-dot" id="1"></div>
+        <div class="dot" id="2"></div>
+        <div class="dot" id="3"></div>
+        <div class="dot" id="4"></div>
+        <div class="dot" id="5"></div>
+      </div>
+      <!-- Carousel End -->
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
